@@ -326,7 +326,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _counter: {fileID: 9064258960578127068}
-  maxCount: 10
+  maxReps: 0
 --- !u!1 &9064258961155438668
 GameObject:
   m_ObjectHideFlags: 0
