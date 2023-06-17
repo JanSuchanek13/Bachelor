@@ -8,7 +8,9 @@ public class Timer : MonoBehaviour
     [SerializeField] TMP_Text visuelTimer;
     [SerializeField] TMP_Text visuelBestTime;
     [SerializeField] GameObject newBestTimeScreen;
+    [SerializeField] GameObject Achievement1;
     public bool countTime;
+    
 
 
     private float currentTime;
@@ -57,6 +59,7 @@ public class Timer : MonoBehaviour
             bestTime = currentTime;
             UpdateBestTime();
             newBestTimeScreen.SetActive(true);
+            Achievement1.SetActive(true);
         }
     }
 }
